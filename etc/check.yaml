@@ -1,0 +1,6 @@
+Name: check.rpc
+ListenOn: 127.0.0.1:8081
+Etcd:
+  Hosts:
+  - 106.55.104.223:2379
+  Key: check.rpc
