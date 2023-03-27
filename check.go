@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"bookcheck/check"
-	"bookcheck/internal/config"
-	"bookcheck/internal/server"
-	"bookcheck/internal/svc"
+	"github.com/jarcn/bookcheck/check"
+	"github.com/jarcn/bookcheck/internal/config"
+	"github.com/jarcn/bookcheck/internal/server"
+	"github.com/jarcn/bookcheck/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/service"

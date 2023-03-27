@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"bookcheck/check"
-	"bookcheck/internal/logic"
-	"bookcheck/internal/svc"
+	"github.com/jarcn/bookcheck/check"
+	"github.com/jarcn/bookcheck/internal/logic"
+	"github.com/jarcn/bookcheck/internal/svc"
 )
 
 type CheckerServer struct {
